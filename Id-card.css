@@ -1,0 +1,66 @@
+#spanResult {
+    font-style: italic;
+    font-size: medium;
+    display: block;
+    border: 2px solid rgb(42, 132, 83);
+    padding-top: 30px;
+    padding-right: 210px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 780px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+#image1 {
+    display: none;
+    border: 2px solid black;
+    width: 80px;
+    height: 100px;
+    position: fixed;
+    top: 99px;
+    right: 440px;
+}
+
+#form {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.vertical {
+    border-left: 2px dotted black;
+    height: 300px;
+    position: fixed;
+    left: 40%;
+}
+
+#heading1 {
+    position: fixed;
+    top: 65px;
+    right: 660px;
+}
+
+#heading2 {
+    position: fixed;
+    top: 65px;
+    right: 480px;
+    border: none;
+}
+
+.card-verti {
+    border: 1px solid rgb(42, 132, 83);
+    height: 153px;
+    left: 65%;
+    top: 61px;
+    position: fixed;
+}
+
+.card-hori {
+    border: 1px solid rgb(42, 132, 83);
+    top: 85px;
+    right: 425px;
+    width: 320px;
+    position: fixed;
+}

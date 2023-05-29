@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="Id-card.css">
+</head>
+
+<body>
+    <div class="vertical"></div>
+
+    <span
+        style="background-color: rgb(36, 172, 97); border: 1px solid black; width: 209px;margin-right: -123px; height: 24px; margin-top: -4px; font-style: italic;"
+        id="heading1"> <strong>Description</strong></span>
+    <span
+        style="background-color: rgb(36, 172, 97); border: 1px solid black; width: 109px; height: 24px; margin-right: -54px; margin-top: -5px; font-style: italic;"
+        id="heading2"><strong>Image</strong></span>
+
+    <div class="card-verti"></div>
+    <div class="card-hori"></div>
+
+    <span id="spanResult">
+    </span>
+
+    <form id="form">
+        <div>
+            Name : <input type="text" id="form1">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="mail" id="form2">
+        </div>
+        <br>
+        <div>
+            Website : <input type="text" id="form3">
+        </div>
+        <br>
+        <div>
+            Image link : <input type="text" id="form4">
+        </div>
+        <br>
+        <div>
+            Gender: Male:<input type="radio" value="male" name="gender">Female:<input type="radio" value="female"
+                name="gender">
+        </div>
+        <br>
+        <div>
+            Skills : JAVA <input type="checkbox" value="JAVA" name="skill">HTML <input type="checkbox" value="HTML"
+                name="skill">CSS <input type="checkbox" value="CSS" name="skill">
+        </div>
+        <br>
+    </form>
+    <div>
+        <img src="person.jpg" alt="imgperson" id="image1">
+    </div>
+    <div style="margin-left: 30px;">
+        <input type="submit" value="Enroll Now" onclick="addInfo()" id="enroll">
+        <input type="reset" value="clear">
+    </div>
+
+</body>
+<script src="js/Id-card.js"></script>
+
+</html>
